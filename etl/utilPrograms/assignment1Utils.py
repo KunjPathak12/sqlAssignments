@@ -45,7 +45,7 @@ def selectStatement():
     createTempView(flattenDF)
     df = spark.sql("SELECT firstName,lastName,salary FROM tbname")
     df.show()
-    # return df
+    return df
 # Q2
 def createColumns():
     createTempView(flattenDF)
@@ -57,34 +57,34 @@ def updateColumns():
     createColumns()
     df = spark.sql("SELECT *,salary*10 as salary FROM tbname")
     df.show()
-    # return df
+    return df
 # Q4
 def castColumn():
     createColumns()
     df = spark.sql("SELECT STRING(salary),STRING(dob) FROM tbname")
     df.show()
-    # return df
+    return df
 # Q5
 def highestWageEmp(flattenDF):
     df = flattenDF(makeDF)
     df = df.withColumn("newColumn",col("salary"))
     df.show()
-    # return df
+    return df
 # Q6
 def maxSalary():
     createColumns()
     df = spark.sql("SELECT firstName, middleName, lastName,salary FROM tbname WHERE salary = (SELECT MAX(salary) FROM tbname)")
     df.show()
-    # return df
+    return df
 # Q7
 def orderBy():
     createColumns()
     df = spark.sql("SELECT * FROM tbname ORDER BY salary DESC")
     df.show()
-    # return df
+    return df
 # Q8
 def dropColumn(flattenDF):
     df = flattenDF(makeDF)
     df = df.drop("salary", "dob")
     df.show()
-    # return df
+    return df

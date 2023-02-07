@@ -22,7 +22,7 @@ def makeDF(Schema,Data):
     df = spark.createDataFrame(data=Data,schema=Schema)
     df.show()
     return df
-makeDF(Schema,Data)
+# makeDF(Schema,Data)
 
 def makeTempView(makeDF):
     df = makeDF(Schema,Data)

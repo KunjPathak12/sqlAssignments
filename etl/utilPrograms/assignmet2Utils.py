@@ -23,8 +23,10 @@ def createDF(Data,Schema):
 def pivotDF(createDF):
     df = createDF(Data,Schema)
     pivDF = df.groupBy("Product").pivot("Country").sum("Amount")
+    pivDF = pivDF.na.fill("")
     pivDF.show()
     return pivDF
+pivotDF(createDF)
 # Q2B
 def unpivotedDF(pivotDF):
     pivDF = pivotDF(createDF)
