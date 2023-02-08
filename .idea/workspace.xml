@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dcc91de4-78c3-4601-a52f-60942b7c588b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etl/driverPrograms/assignment2Driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/etl/driverPrograms/assignment2Driver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/etl/testCases/assignment1_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/etl/testCases/assignment1_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etl/testCases/assignment2_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/etl/testCases/assignment2_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etl/testCases/assignment3_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/etl/testCases/assignment3_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etl/utilPrograms/assignment1Utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/etl/utilPrograms/assignment1Utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etl/utilPrograms/assignment3Utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/etl/utilPrograms/assignment3Utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etl/utilPrograms/assignmet2Utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/etl/utilPrograms/assignmet2Utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
